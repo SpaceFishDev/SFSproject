@@ -1,4 +1,5 @@
 #pragma once
+#include "Console.hpp"
 namespace sfs {
     int length(const char* str)
     {
@@ -176,7 +177,8 @@ namespace sfs {
         if (con == content) return true;
         return false;
     }
-    }
+    console::ConsoleStream Console;
+ }
 
 
 

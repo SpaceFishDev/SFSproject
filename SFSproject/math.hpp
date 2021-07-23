@@ -79,8 +79,5 @@ namespace sfs {
 				}
 			}
 		}
-		for (int ii = 0; ii < pos; ++ii) {
-			std::cout << value[ii];
-		}
 	}
 }
