@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Console.hpp" />
+    <ClInclude Include="math.hpp" />
     <ClInclude Include="sfs.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="PrintF.C" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
