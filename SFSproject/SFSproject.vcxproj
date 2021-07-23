@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="math.hpp" />
     <ClInclude Include="sfs.hpp" />
   </ItemGroup>
   <ItemGroup>
